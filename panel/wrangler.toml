@@ -1,0 +1,13 @@
+name = "cracklib-panel"
+main = "worker.js"
+compatibility_date = "2025-01-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "crack"
+database_id = "feb2da46-507e-428e-bf6c-70e79a0cd5db"
+
+# Secrets (wrangler secret put ... se set karo, yahan mat likho):
+#   SESSION_SECRET  - session cookie sign key (koi lambi random string)
+#   ADMIN_USER      - admin login username
+#   ADMIN_PASS      - admin login password
